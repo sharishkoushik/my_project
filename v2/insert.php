@@ -1,5 +1,9 @@
 <script>
 function insertData(){
+  
+    var table_name = document.getElementById("table_name").value;
+    document.getElementById("demo").innerHTML = table_name;
+    
     var rowlen = document.getElementById("t01").rows.length;
     
     var sname = t01.rows[rowlen-1].cells[2].children[0].value;

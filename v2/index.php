@@ -8,7 +8,8 @@
    </head>
 
    <body>
-    
+   
+   <p></p>
     <table id="t01" border="1">
       <tr>
         <th></th>
@@ -32,9 +33,15 @@
         <td><button name = "delete" id = "delete" value = "Delete" onclick="deleteData()">DELETE</button></td>
         <td><button name = "edit" id = "edit" value = "Edit" onclick="editData()">EDIT</button></td>
     </tr> 
-<!--<p id='demo'></p>
-<p id='demo1'></p>
+<p id='demo'></p>
+<!--<p id='demo1'></p>
 <p id='demo2'></p>
 <p id='demo3'></p>-->
 </body>
+<script>
+function saveTable(){
+    var table_name = document.getElementById("table_name").value;
+    document.getElementById("demo").innerHTML = table_name;
+}
+</script>
 </html>
