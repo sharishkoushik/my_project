@@ -17,7 +17,7 @@
     array_push($col_names, $row['Field']);
         
     } 
-    echo "<p id='tablename'>"."<strong>Table</strong>: ".$tb."</p>";
+    echo "<p id='tablename'>".$tb."</p>";
     $table_str = "<table id='t01' border='1'>". 
                 "<tr>".
                 "<th></th>";
